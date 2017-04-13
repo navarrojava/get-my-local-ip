@@ -1,0 +1,23 @@
+{
+  "name": "get-my-local-ip",
+  "version": "0.1.0",
+  "description": "This module gives you your local ip, to be used primarily with hybrid development, where your localhost should be replaced by your local ip, this module helps you to automate this process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navarrojava/get-my-local-ip.git"
+  },
+  "keywords": [
+    "local",
+    "ip"
+  ],
+  "author": "Navarro Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navarrojava/get-my-local-ip/issues"
+  },
+  "homepage": "https://github.com/navarrojava/get-my-local-ip#readme"
+}
