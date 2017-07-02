@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "jasmine": "jasmine-node --color --verbose spec",
-    "test": "npm run jasmine",
-    "stanbul":"istanbul cover node_modules\jasmine\bin\jasmine.js"
+    "test": "npm run jasmine"
   },
   "repository": {
     "type": "git",
