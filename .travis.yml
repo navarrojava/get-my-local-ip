@@ -3,6 +3,7 @@ node_js:
 - '4'
 
 install:
+- npm install --only=dev
 - npm install -g jasmine-node
 - npm install -g istanbul
 - npm install -g codecov
