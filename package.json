@@ -1,9 +1,10 @@
 {
   "name": "get-my-local-ip",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "This module gives you your local ip, to be used primarily with hybrid development, where your localhost should be replaced by your local ip, this module helps you to automate this process.",
   "main": "index.js",
   "scripts": {
+    "jasmine": "jasmine-node --color --verbose spec",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/navarrojava/get-my-local-ip/issues"
   },
-  "homepage": "https://github.com/navarrojava/get-my-local-ip#readme"
+  "homepage": "https://github.com/navarrojava/get-my-local-ip#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
