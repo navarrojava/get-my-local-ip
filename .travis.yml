@@ -3,6 +3,7 @@ node_js:
 - '4'
 
 install:
+- npm install -g jasmine-node
 - npm install -g codecov
 
 branches:
