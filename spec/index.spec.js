@@ -1,6 +1,7 @@
 /**
  * Created by macbook on 02/07/17.
  */
+'use strict';
 
 const localInternetConnection = require('../index');
 
