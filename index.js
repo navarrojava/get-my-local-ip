@@ -7,7 +7,7 @@ const http = require("http");
 
 const netWorkAdaptersInfo = os.networkInterfaces();
 
-let local = { address: '127.0.0.1',
+const local = { address: '127.0.0.1',
     netmask: '255.0.0.0',
     family: 'IPv4',
     mac: '00:00:00:00:00:00',
@@ -24,9 +24,8 @@ let localAdapter = Object.keys(netWorkAdaptersInfo).map((a) =>
 
 let localInternetConnection = Object.assign({}, localAdapter)[0];
 
-
-
 module.exports = localInternetConnection;
+
 
 
 

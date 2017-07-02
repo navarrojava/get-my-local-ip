@@ -6,9 +6,9 @@ const jasmine = require('jasmine-node');
 const localInternetConnection = require('../index');
 
 
-
-describe("Get-My-Local-IP", function() {
-    it("get a valid Ip address", function() {
-        expect(localInternetConnection.address).toMatch(/\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$){4}\b/);
+describe("Get-My-Local-IP", () => {
+    it("get a valid Ip address", () => { expect(localInternetConnection.address).toMatch(/\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$){4}\b/);
+    });
+    it("get a valid Ip address is a String", () => { expect(localInternetConnection.address).toBeTruthy();
     });
 });

@@ -4,8 +4,9 @@
   "description": "This module gives you your local ip, to be used primarily with hybrid development, where your localhost should be replaced by your local ip, this module helps you to automate this process.",
   "main": "index.js",
   "scripts": {
-    "jasmine": "jasmine-node --color --verbose spec",
-    "istanbul": "istanbul cover spec/index.spec.js",
+    "jasmine": "jasmine-node  --color --verbose spec",
+    "istanbul": "istanbul cover jasmine-node spec",
+    "view_results": "chrome /coverage/lcov-report/index.html",
     "test": "npm run jasmine && npm run istanbul"
   },
   "repository": {
@@ -23,7 +24,7 @@
   },
   "homepage": "https://github.com/navarrojava/get-my-local-ip#readme",
   "devDependencies": {
-    "istanbul": "^0.4.5",
+    "istanbul": "^1.1.0-alpha.1",
     "jasmine-node": "^1.14.5"
   }
 }
