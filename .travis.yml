@@ -4,6 +4,7 @@ node_js:
 
 install:
 - npm install -g jasmine-node
+- npm install -g istanbul
 - npm install -g codecov
 
 branches:

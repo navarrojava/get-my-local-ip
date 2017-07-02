@@ -2,7 +2,7 @@
  * Created by macbook on 02/07/17.
  */
 'use strict';
-
+const jasmine = require('jasmine-node');
 const localInternetConnection = require('../index');
 
 
